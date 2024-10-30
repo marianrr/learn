@@ -1,4 +1,15 @@
-﻿// creeaza fisierul
+﻿/*  creez fisier gol
+
+"" | Out-File -FilePath "fisier1.txt" -Encoding utf8  
+Set-Content -Path "fisier2.txt" -Value "" -Encoding utf8
+Add-Content -Path "fisier3.txt" -Value "" -Encoding utf8
+ e set de 2 comenzi: 
+"" | Out-File -FilePath "fisier4.txt" -Encoding utf8
+Out-Null
+
+*/
+
+// creeaza fisierul
 //"console.log('first...')" | out-file  -filepath file3.js -encoding utf8  
 //add-content -path "file4.js" -value "console.log('first...')" -encoding utf8
 console.log('this is good...')
