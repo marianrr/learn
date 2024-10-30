@@ -1,1 +1,17 @@
 ﻿
+
+
+.container  {
+    background-color: #e67a7a;
+}
+ p ~ div {
+    background-color: #4ae86e;
+}
+
+span {
+    background-color: blue;
+}
+
+p span {
+    background-color: rgb(215, 48, 171);
+}
