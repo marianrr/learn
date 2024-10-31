@@ -1,0 +1,77 @@
+﻿* , html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eabfbf;
+    margin: 10px;
+}
+.class1 {
+    background-color: #e45959;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    animation: 3s infinite lol;
+}
+.class2 {
+    background-color: #3dd12d;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    animation: 3s infinite lol2;
+    text-align: center;
+}
+.class3 {
+    background-color: #9974de;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    animation: 3s infinite lol3;
+    text-align: center;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ img {
+    flex-basis: 25%;
+    border-radius: 10px;
+}
+
+@keyframes lol {
+from {
+transform: translateX(40px)
+}
+to {
+    transform: translateX(1500px)
+
+}
+}
+@keyframes lol2 {
+from {
+transform: translateX(1500px)
+}
+to {
+    transform: translateX(40px)
+
+}
+}
+@keyframes lol3 {
+from {
+transform: translateX(200px)
+}
+to {
+    transform: translateX(1000px)
+
+}
+}
