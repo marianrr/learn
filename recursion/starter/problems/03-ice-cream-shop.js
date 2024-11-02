@@ -12,8 +12,31 @@ iceCreamShop(['moose tracks'], 'moose tracks'); // true
 iceCreamShop([], 'honey lavender'); // false
 ***********************************************************************/
 
+function iceCreamShop(arr, fav) {
+//debugger
+if((arr.length === 0) || !fav) return false
 
-// your code here
+while(arr) {
+  
+if(arr[0] === fav) return true
+if(arr.length === 1) return false
+else {
+  return iceCreamShop(arr.slice(1), fav)
+}
+}
+}
+
+
+// console.log(iceCreamShop(['vanilla', 'strawberry'], 'blue moon')); // false
+// console.log(iceCreamShop(['pistachio', 'green tea', 'chocolate', 'mint chip'], 'green tea')); // true
+// console.log(iceCreamShop(['cookies n cream', 'blue moon', 'superman', 'honey lavender', 'sea salt caramel'], 'pistachio')); // false
+// console.log(iceCreamShop(['moose tracks'], 'moose tracks')); // true
+// console.log(iceCreamShop([], 'honey lavender')); // false
+
+
+
+
+
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
