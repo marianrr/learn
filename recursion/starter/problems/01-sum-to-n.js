@@ -11,26 +11,9 @@ sumToN(9)  // returns 45
 sumToN(-8)  // returns null
 ***********************************************************************/
 
-//solutie cu for()
 
-// const sumToN = num => {
-//   let sum = 0;
-//   if(num < 0) return null
-//   for(let i=0; i <= num; i++) {
-//     sum += i
-//   }
-//   return sum
-// }
 
-function sumToN(num) {
-  if(num < 0) return null
-  while(num > 0) {
-  if(num === 1) return 1
-  else {
-    return num + sumToN(num-1)
-  }
-}
-}
+
 
 
 
