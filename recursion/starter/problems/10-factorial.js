@@ -16,7 +16,20 @@ factorial(3); // 6
 factorial(5); // 120
 ***********************************************************************/
 
-// your code here
+
+
+function factorial(num) {
+
+
+
+
+
+}
+
+
+console.log(factorial(1)); // 1
+console.log(factorial(3)); // 6
+console.log(factorial(5)); // 120
   
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {

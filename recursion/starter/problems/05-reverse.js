@@ -14,8 +14,9 @@ reverse(""); // ""
 
 function reverse(str) {
 
-if(!str) return ""
-return  (reverse(str.slice(0, str.length-1))).push[str.slice(str.length-1)]
+  if (!str) return ""
+  if (str.length === 1) return str[0]
+  return (str[str.length - 1]) + reverse(str.slice(0, str.length - 1))
 
 
 }

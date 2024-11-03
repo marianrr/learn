@@ -14,9 +14,9 @@ sumToN(-8)  // returns null
 
 
 function sumToN(num) {
-if(num < 0) return null
-if(num === 0) return 0
-return num + sumToN(num-1)
+  if (num < 0) return null
+  if (num === 0) return 0
+  return num + sumToN(num - 1)
 
 
 }

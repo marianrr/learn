@@ -19,12 +19,26 @@ fibonacci(4); // 3
 fibonacci(10); // 55
 ***********************************************************************/
 
-// your code here
-  
+function fibonacci(num) {
+  if (num === 1) return 1
+  if (num === 2) return 1
+  return fibonacci(num - 2) + fibonacci(num - 1)
+
+}
+
+
+
+console.log(fibonacci(1)); // 1
+console.log(fibonacci(2)); // 1
+console.log(fibonacci(3)); // 2
+console.log(fibonacci(4)); // 3
+console.log(fibonacci(10)); // 55
+
+
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
   module.exports = fibonacci;
 } catch (e) {
   module.exports = null;
 }
-  

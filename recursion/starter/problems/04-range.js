@@ -13,7 +13,7 @@ range(7, 6); // []
 
 
 function range(min, max) {
-  if(min >= max) {return []}
+  if (min >= max) { return [] }
   return [min].concat(range(++min, max))
 
 }
