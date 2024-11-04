@@ -1,5 +1,5 @@
 /***********************************************************************
-Write a function named `smoothieMachine` that accepts any number of parameters
+Write a function in javascript named `smoothieMachine` that accepts any number of parameters
 and returns a function.
 
 The returned function will also accept any number of parameters and will
@@ -23,9 +23,17 @@ console.log(smoothie2("pineapple"));
 // prints "I'm having a smoothie with apples and bananas and berries and pineapple"
 ***********************************************************************/
 
-const smoothieMachine = (...ingredients) => {
-  // Your code here
-};
+
+function smoothieMachine(...initialIngredients) {
+  let ingredients = [...initialIngredients];
+  
+  return function(...newIngredients) {
+    ingredients = ingredients.concat(newIngredients);
+    return `I'm having a smoothie with ${ingredients.join(' and ')}`;
+  };
+}
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
