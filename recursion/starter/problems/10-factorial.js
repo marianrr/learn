@@ -15,15 +15,10 @@ factorial(1); // 1
 factorial(3); // 6
 factorial(5); // 120
 ***********************************************************************/
-
-
-
 function factorial(num) {
-
-
-
-
-
+if(num === 1) return 1
+//if(num > 0)
+return num*factorial(num-1)
 }
 
 

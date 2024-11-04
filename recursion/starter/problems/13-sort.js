@@ -13,17 +13,21 @@ There are many ways to accomplish this task but here's a simple algorithm:
 3. Add the smallest element to the end of `sorted`
 4. Remove the smallest element from `nums`
 5. Recursively call `sort()` with updated `sorted` and `nums`
-
-Examples:
-
-sort([4,1,6,3,1,7]); // [1, 1, 3, 4, 6, 7]
-sort([0, 1, -3]); // [-3, 0, 1]
-sort([]); // []
 ***********************************************************************/
-
 function sort(nums, sorted = []) {
-  // your code here
+  if (!nums) return 'sorted'
+  if (nums.length === 0) return sorted
+  if(nums.length === 1)  s = nums[0]
+  else  s = Math.min(nums)
+  sorted.push(s)
+  nums.splice(nums.indexOf(s), 1)
+  return sort((nums, 1), sorted)
 }
+
+console.log(sort([4, 1, 6, 3, 1, 7])); // [1, 1, 3, 4, 6, 7]
+console.log(sort([0, 1, -3])); // [-3, 0, 1]
+//console.log(sort([])); // []
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
