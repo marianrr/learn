@@ -9,7 +9,29 @@ then be invoked two more times with a single argument number each time (one for
 length and one for width). Once all three numbers (height, width, length) have
 been collected return the volume of the rectangle. Any subsequent calls to the 
 function returned by recVolume should continue to return the original volume.
+*/
 
+function recVolume(height) {
+
+
+
+
+
+
+
+
+
+}
+
+/**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
+try {
+  module.exports = recVolume;
+} catch (e) {
+  return null;
+}
+
+
+/*
 Example 1:
 let table1 = recVolume(5); // returns a function
 table1(4); // returns a function
@@ -23,13 +45,3 @@ console.log(table2(1)); // prints 6
 console.log(table2(75)); // STILL prints 6
 
 ***********************************************************************/
-function recVolume(height) {
-  // Your code here
-}
-
-/**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
-try {
-  module.exports = recVolume;
-} catch (e) {
-  return null;
-}

@@ -4,7 +4,36 @@ accept a number and return a function. When the function returned by lazyAdder
 is invoked it will again accept a number, (secondNum), and then return a function.
 When the last mentioned function is invoked with a number, (thirdNum), it will
 FINALLY return a number. See below for examples!
+*/
 
+
+function lazyAdder(firstNum) {
+  let a = firstNum
+  function firstfunction(secondNum) {
+    a +=  secondNum
+return secondfunction
+
+  }
+  function secondfunction(thirdNum) {
+
+    return a + thirdNum
+    
+      }
+
+return firstfunction
+
+}
+
+/**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
+try {
+  module.exports = lazyAdder;
+} catch (e) {
+  return null;
+}
+
+
+
+/*
 Example 1:
 let firstAdd = lazyAdder(1);
 let secondAdd = firstAdd(2);
@@ -21,14 +50,3 @@ AFTER YOU ARE FINISHED WITH THIS PROBLEM, ASK FOR A CODE REVIEW
 - Explain, but don't code, how you would turn your solution into a one-line
   fat-arrow function
 ***********************************************************************/
-
-function lazyAdder(firstNum) {
-  // Your code here
-}
-
-/**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
-try {
-  module.exports = lazyAdder;
-} catch (e) {
-  return null;
-}
