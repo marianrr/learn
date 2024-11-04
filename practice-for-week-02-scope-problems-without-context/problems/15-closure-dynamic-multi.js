@@ -19,7 +19,17 @@ multiplyByFive(5); // returns 25
 ***********************************************************************/
 
 function dynamicMultiply(num) {
-  // Your code here
+  
+  function func1(num2) {
+
+return num*num2
+
+
+  }
+
+
+return func1
+
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

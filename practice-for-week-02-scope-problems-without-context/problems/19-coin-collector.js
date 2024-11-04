@@ -25,7 +25,15 @@ Example 3:
 
 ***********************************************************************/
 function coinCollector(numCoins) {
-  // Your code here
+  let i  = 0
+  let du = []
+function func1(so) {
+  i++
+  du.push(so)
+  if(i === numCoins) return  du
+}
+
+  return func1
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

@@ -16,3 +16,4 @@ describe("dynamicMultiply()", function () {
     assert.equal(multiplyByFive(5), 25);
   });
 });
+

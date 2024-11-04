@@ -15,7 +15,12 @@ console.log(twentyPercent([10, 20, 30])); // [ 8, 16, 24 ]
 
 ***********************************************************************/
 function coupon(discount) {
-  // Your code here
+  
+  function func1(arr) {
+    return arr.map( num => num - num*discount)
+  }
+
+  return func1
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

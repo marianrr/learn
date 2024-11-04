@@ -43,8 +43,23 @@ AFTER YOU ARE FINISHED WITH THIS PROBLEM, ASK FOR A CODE REVIEW
 ***********************************************************************/
 
 function curriedSum(numArgs) {
-  // Your code here
+ let i = 0
+ let sum = 0
+  function func1(so) {
+i++
+sum += so
+if(i === numArgs) return sum
+return func1
+  }
+
+
+  return func1
 }
+
+const sum = curriedSum(3)(2)(1)(7); // => returns 10
+
+
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = curriedSum;
