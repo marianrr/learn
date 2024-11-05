@@ -31,3 +31,8 @@ console.log('second...')
 // eliminare ultimul cuvant din textul fisierului
 // (Get-Content -Path "file4.js") -replace '\b\w+\b(?=\s*$)' | Set-Content -Path "file4.js"
 // (Get-Content "file4.js") | % { $_ -replace '\b\w+\b(?=\s*$)' } | Set-Content "file4.js"
+
+
+// rename a file in powershell 
+
+// rename-item -path "file2.js" -newname "file.js"
