@@ -1,0 +1,52 @@
+﻿
+#coco{
+    width: 200px;
+    height: 200px;
+    background-color: #ee6666;
+    clip-path: circle();
+    margin-top: 10px;
+}
+#coco1{
+    width: 600px;
+    height: 300px;
+    background-color: #ee6666;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#coco2 {
+    width: 200px;
+    height: 200px;
+    background-color: #00f;
+    box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; /* glowing blue neon */
+    clip-path: polygon(100px 0px, 200px 76px, 164px 200px, 36px 200px, 0px 76px);
+    margin-top: 10px;
+    display: inline-block;
+}
+#coco3 {
+    width: 200px;
+    height: 200px;
+    background-color: #ee6666;
+    clip-path: polygon(0px 0px, 200px 0px, 100px 200px);
+    margin-top: 10px;
+    display: inline-block;
+}
+#coco4 {
+    width: 200px;
+    height: 200px;
+    background-color: #ee6666;
+    clip-path: polygon(
+        100px 0px,
+        122px 70px,
+        196px 70px,
+        136px 114px,
+        158px 182px,
+        100px 140px,
+        42px 182px,
+        64px 114px,
+        4px 70px,
+        78px 70px
+    );
+    margin-top: 10px;
+    display: inline-block;
+}
