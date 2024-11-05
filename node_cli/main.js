@@ -11,11 +11,19 @@ const rl = readline.createInterface({
 
 rl.question("where? ", answer => {
     // print the response
-    console.log("you responded: " + answer)
+    console.log(`you responded: ${12+55} ` + answer)
 
     // close the interface
-    rl.close()
+    rl.question("how? ", answer => {
+        // print the response
+        console.log(`your second response is: ${100*2} ` + answer)
+    
+        // close the interface
+        rl.close()
+    
+    })
 
 })
+
 
 console.log("DONE!");
