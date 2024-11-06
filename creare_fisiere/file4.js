@@ -13,6 +13,11 @@ Out-Null
 //"console.log('first...')" | out-file  -filepath file3.js -encoding utf8  
 //add-content -path "file4.js" -value "console.log('first...')" -encoding utf8
 console.log('this is good...')
+
+// afiseaza continutul fisierului in terminal
+// get-content -path "file4.js" -encoding utf8
+
+
 // adauga o linie noua la fisierul existent
 //"console.log('second...')" | out-file -filepath "file3.js" -encoding utf8 -append
 //add-content -path "file4.js" -value "console.log('second...')" -encoding utf8
