@@ -30,7 +30,7 @@ console.log('second...')
 // eliminare ultima linie din textul fisierului
 
 // $lines = Get-Content -Path "file4.js"
-//  $lines | Select-Object -SkipLast 1 | Set-Content -Path "file4.js"
+//  $lines | Select-Object -SkipLast 1 | Set-Content -Path "file4.js" -encoding utf8
 
 
 // eliminare ultimul cuvant din textul fisierului
