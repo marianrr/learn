@@ -17,6 +17,15 @@ console.log('this is good...')
 // afiseaza continutul fisierului in terminal
 // get-content -path "file4.js" -encoding utf8
 
+// scriu din terminal pe mai multe coloeane
+$text = @"
+Aceasta este prima linie.
+Aceasta este a doua linie.
+Aceasta este a treia linie.
+"@
+
+Set-Content -Path "fisier4.txt" -Value $text -Encoding UTF8
+
 
 // adauga o linie noua la fisierul existent
 //"console.log('second...')" | out-file -filepath "file3.js" -encoding utf8 -append
