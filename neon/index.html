@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Button</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #333;
+        margin: 0;
+    }
+  .one {
+    font-size: 24px;
+        padding: 15px 30px;
+        color: #fff;
+        background-color: #d964d7;
+        border: none;
+        border-radius: 25px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 20px #d964d7, 0 0 40px #d964d7, 0 0 60px #d964d7;
+        transition: box-shadow 0.3s ease;
+        cursor: pointer;
+  }
+  div {
+    display: flex;
+    gap: 30px;
+  }
+    .neon-button {
+        font-size: 24px;
+        padding: 15px 30px;
+        color: #fff;
+        background-color: #00f7ff;
+        border: none;
+        border-radius: 25px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff, 0 0 60px #00f7ff;
+        transition: box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    .neon-button:hover {
+        box-shadow: 0 0 30px #00f7ff, 0 0 60px #00f7ff, 0 0 90px #00f7ff;
+    }
+  .one:hover {
+        box-shadow: 0 0 30px #d964d7, 0 0 60px #d964d7, 0 0 90px #d964d7;
+    }
+</style>
+</head>
+<body>
+<div>
+<button class="neon-button">Click!</button>
+<button class="one">Click!</button>
+<button class="neon-button">Click!</button>
+  <button class="one">Click!</button>
+  <button class="neon-button">Click!</button>
+</div>
+
+  
+</body>
+</html>
