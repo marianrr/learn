@@ -43,23 +43,72 @@ class HashTable {
       }
     }
 
-
-
-
-
   }
 
   insertWithHashCollisions(key, value) {
+    const index = this.hashMod(key);
+    const pair = new KeyValuePair(key, value);
 
+    if (this.data[index] === null) {
+      this.data[index] = pair;
+      this.count++;
+    } else {
+      let current = this.data[index];
 
+      // Check if the key already exists in the linked list
+      while (current && current.key !== key) {
+        current = current.next;
+      }
 
-
+      if (current) {
+        // Key already exists, update the value
+        current.value = value;
+      } else {
+        // Key doesn't exist, add the new pair to the head of the linked list
+        pair.next = this.data[index];
+        this.data[index] = pair;
+        this.count++;
+      }
+    }
   }
 
   insert(key, value) {
+    if (this.data === null) {
+      throw new Error('No hash table data present');
+    }
 
+    if (this.capacity === 0) {
+      throw new Error('No capacity set for hash table');
+    }
 
+    if (key === null || value === null) {
+      throw new Error('Key or value is null');
+    }
 
+    const index = this.hashMod(key);
+    const pair = new KeyValuePair(key, value);
+
+    if (this.data[index] === null) {
+      this.data[index] = pair;
+      this.count++;
+    } else {
+      let current = this.data[index];
+
+      // Check if the key already exists in the linked list
+      while (current && current.key !== key) {
+        current = current.next;
+      }
+
+      if (current) {
+        // Key already exists, update the value
+        current.value = value;
+      } else {
+        // Key doesn't exist, add the new pair to the head of the linked list
+        pair.next = this.data[index];
+        this.data[index] = pair;
+        this.count++;
+      }
+    }
   }
 
 }
