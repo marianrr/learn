@@ -6,13 +6,16 @@ server = http.createServer((req, res) => {
 console.log(req.method, req.url)
 res.setHeader("Content-Type", "text/html")
 res.statusCode = 200
+let reqBody = ""
+req.on("data", data => {
+    reqBody += data
+})
 
-
-
-
-
-
-
+req.on("end", () => {
+    console.log(reqBody)
+    req.body = parseBody(reqBody)
+    sendFormPage(req, res);
+})
 res.end()
 })
 
