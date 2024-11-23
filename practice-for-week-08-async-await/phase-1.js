@@ -26,12 +26,24 @@ function liftWeights() {
 }
 
 // refactor this function to handle Promises using async/await instead of
-  // .then and .catch
-function workout() {
-  stretch()
-    .then(runOnTreadmill)
-    .then(liftWeights)
-    .then(() => console.log("done working out"))
+// .then and .catch
+ function workout() {
+  /**
+   * Asynchronously performs a workout routine by stretching, running on treadmill, and lifting weights.
+   */
+  async function stretch() {
+    try {
+      // Wait for stretching to complete
+      await runOnTreadmill();
+      // Wait for running on treadmill to complete
+      await liftWeights();
+      // Wait for lifting weights to complete
+    } catch (err) {
+      // Handle any errors that occur during the workout
+      console.log(err);
+    }
+  }
+  console.log("done working out")
     .catch((err) => console.log(err));
 }
 
@@ -43,8 +55,8 @@ output.
 
 
 workout();
-  // should print out the following:
-    // done stretching
-    // done running on treadmill
-    // done lifting weights
-    // done working out
+// should print out the following:
+// done stretching
+// done running on treadmill
+// done lifting weights
+// done working out
