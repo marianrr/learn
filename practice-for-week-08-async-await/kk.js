@@ -1,0 +1,1 @@
+console.log(['live', 'poi'].includes("iv"))
