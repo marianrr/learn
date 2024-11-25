@@ -7,6 +7,18 @@ Paste your code for fetch requests here once you finish each task.
 
 // Your code here
 
+fetch("http://localhost:5000/miau")
+.then(res => {
+    console.log("res este: ", res.status)
+    return res.text()
+})
+.then(data =>  { 
+    console.log("statusul este: ", data)
+    console.log("res este: ", res.status)
+
+})
+
+
 
 
 /* ====== 2. Print true if the status of the response was successful ====== */
