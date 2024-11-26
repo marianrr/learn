@@ -5,16 +5,49 @@ Paste your code for fetch requests here once you finish each phase.
 
 /* ============================== Phase 1 ============================== */
 
-// Your code here
+// const url = "http://localhost:5000/products"
+// const method = "POST"
+// const headers = {"Content-Type": "x-www-form-urlencoded"}
+// const body = "name=Caribbean+Delight+Coffee&description=Made+by+Manatee+Coffee&price=11%2E99&categories=grocery"
+// const options = {
+//     method: method,
+//     headers: headers,
+//     body: body
+// }
+
+// fetch(url, options)
+
+
+
 
 
 
 /* ============================== Phase 2 ============================== */
 
-// Your code here
+
+const url = "http://localhost:5000/products"
+const method = "POST"
+const headers = {"Content-Type": ""}
+const options = {
+method: method,
+headers: headers,
+body: body
+}
+
+
+fetch(url, options)
+
+
 
 
 
 /* ============================== Phase 3 ============================== */
 
-// Your code here
+
+
+
+
+
+
+
+
