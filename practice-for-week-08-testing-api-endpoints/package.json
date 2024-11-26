@@ -1,0 +1,16 @@
+{
+  "name": "practice-for-week-08-testing-api-endpoints",
+  "version": "1.0.0",
+  "description": "In this practice, you will learn how to make a JSON request using Postman and in\r the browser using `fetch`.",
+  "main": "fetch-requests.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
