@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Element</title>
+    <style>
+        #draggable {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            position: absolute;
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <div id="draggable">miau miau kikila</div>
+
+    <script>
+        const draggable = document.getElementById('draggable');
+
+        draggable.addEventListener('mousedown', (event) => {
+            let shiftX = event.clientX - draggable.getBoundingClientRect().left;
+            let shiftY = event.clientY - draggable.getBoundingClientRect().top;
+
+            const moveAt = (pageX, pageY) => {
+                draggable.style.left = pageX - shiftX + 'px';
+                draggable.style.top = pageY - shiftY + 'px';
+            };
+
+            const onMouseMove = (event) => {
+                moveAt(event.pageX, event.pageY);
+            };
+
+            document.addEventListener('mousemove', onMouseMove);
+
+            draggable.addEventListener('mouseup', () => {
+                document.removeEventListener('mousemove', onMouseMove);
+            }, { once: true });
+        });
+
+        draggable.ondragstart = () => false; // Prevent default browser drag behavior
+    </script>
+</body>
+</html>
