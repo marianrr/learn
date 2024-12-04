@@ -1,0 +1,19 @@
+{
+  "name": "env1",
+  "version": "1.0.0",
+  "main": "kikila.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
