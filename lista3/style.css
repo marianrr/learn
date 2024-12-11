@@ -1,0 +1,28 @@
+*,
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, gray, rgb(18, 206, 87));
+}
+
+form {
+    margin: 20px;
+}
+
+input {
+    margin: 20px;
+}
+
+p {
+    margin-left: 100px;
+}
+
+ul {
+    margin-left: 30px;
+}
