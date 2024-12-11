@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to left, green, gray)
+}
+
+ul {
+    border-radius: 5px;
+    border: 2px rgb(153, 159, 100) solid;
+    display: inline-block;
+    margin: 10px;
+}
