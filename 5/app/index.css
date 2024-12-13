@@ -1,0 +1,77 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(114, 223, 114) 40%, blue, gray);
+}
+
+p,
+ul,
+form {
+    margin: 40px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.kikila {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+iframe {
+    margin: 20px;
+    border-radius: 10px;
+
+    width: 50vmax;
+    height: 70vmin;
+}
+
+.ju {
+    background-color: aqua;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    animation: 4s infinite dod
+}
+
+.ju2 {
+    background-color: rgb(149, 255, 0);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    animation: 4s infinite dod2
+}
+
+@keyframes dod {
+    from {
+        transform: translateX(20px);
+    }
+
+    to {
+        transform: translateX(1400px);
+    }
+}
+
+@keyframes dod2 {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(1400px);
+    }
+}

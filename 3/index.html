@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mili</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" method="POST" name="form1" id="form1" onsubmit="miau(event)">
+        <label for="input1">Insert note</label>
+        <br>
+        <input type="text" name="input1" id="input1">
+        <br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <ul name="ul1" id="ul1">Notes are</ul>
+    <script>
+
+        const miau2 = (note) => {
+            const ul = document.getElementById("ul1")
+            const li = document.createElement("li")
+            li.textContent = note
+            ul.appendChild(li)
+        }
+
+        let notes = ["unu", "doi", "trei"]
+        const miau = (e) => {
+            e.preventDefault()
+            alert("DJ Guga la Felipa!!!!!!!")
+            const form1 = new FormData(e.currentTarget)
+            const note = form1.get("input1")
+            console.log("Note is ", note)
+            notes.push(note)
+            console.log("Notes are: ", notes)
+            miau2(note)
+            input1.value = ""
+
+        }
+
+        notes.map(note => {
+            miau2(note)
+        })
+
+
+    </script>
+</body>
+
+</html>
