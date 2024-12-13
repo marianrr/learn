@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to left, gray, rgb(159, 159, 224));
+}
+
+.miau {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    animation: 4s infinite fof
+}
+
+@keyframes fof {
+    from {
+        transform: translateX(20px);
+    }
+
+    to {
+        transform: translateX(1200px);
+    }
+}
