@@ -1,6 +1,5 @@
 const express = require("express")
 const { MongoClient, ServerApiVersion } = require('mongodb')
-const mongodb = require("mongodb")
 const app = express()
 app.use(express.json())
 require("dotenv").config()
