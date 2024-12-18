@@ -26,8 +26,8 @@ const client = new MongoClient(uri)
 
 app.get("/", async (req, res) => {
     try {
-        const database =  client.db('sample_mflix');
-        const movies =  database.collection('movies');
+        const database = client.db('sample_mflix');
+        const movies = database.collection('movies');
         const movie = await movies.find().limit(10).toArray();
         console.log(movie);
         res.status(200).json(movie)
