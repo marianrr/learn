@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(to left, rgb(126, 218, 126), rgb(235, 214, 76));
+}
+
+div {
+    min-width: 500px;
+}
