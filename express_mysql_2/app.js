@@ -84,17 +84,17 @@ connection.query(query2, ["Mili", 16], (err, result) => {
 
 
 
-//app.get("/people", (req, res) => {
-//     const peopleQuery = `
-// SELECT * FROM people
-// `
-//     db.query(peopleQuery, (err, result) => {
-//         if (err) console.error("error found.")
-//         res.status(200).send(result)
-//     })
+app.get("/people", (req, res) => {
+    const peopleQuery = `
+SELECT * FROM people
+`
+    connection.query(peopleQuery, (err, result) => {
+        if (err) console.error("error found.")
+        res.status(200).send(result)
+    })
 
 
-//})
+})
 
 app.get("/", (req, res) => {
 
