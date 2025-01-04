@@ -1,0 +1,29 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(178, 237, 178), rgb(239, 232, 232));
+}
+
+.material-symbols-outlined {
+    color: rgb(47, 120, 228);
+}
+
+form {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid rgb(195, 0, 255);
+    border-radius: 5px;
+}
+
+fieldset {
+    color: rgb(28, 28, 214);
+    border: 1px solid green;
+    border-radius: 5px;
+}
