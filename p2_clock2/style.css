@@ -1,0 +1,70 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, gray, white);
+    height: 100dvh;
+    width: 100dvw;
+    align-content: center;
+    text-align: center;
+}
+
+.clock {
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.clock2 {
+    transform: rotate(calc(30deg * var(--n)));
+    position: absolute;
+    text-align: center;
+    inset: 20px;
+    display: inline-block;
+}
+
+b {
+    color: red;
+    transform: rotate(calc(-30deg * var(--n)));
+    display: inline-block;
+}
+
+.sec {
+    width: 50%;
+    height: 10px;
+    background-color: black;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    position: absolute;
+
+}
+
+.min {
+    width: 50%;
+    height: 10px;
+    background-color: black;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    position: absolute;
+
+}
+
+.hou {
+    width: 50%;
+    height: 10px;
+    background-color: black;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    position: absolute;
+
+}
