@@ -1,0 +1,7 @@
+const map1 = new Map()
+map1.set("name", "Marian")
+map1.set("age", 40)
+console.log(map1.get("name"))
+console.log(map1.get("age"))
+console.table(map1)
+console.log(typeof map1)
