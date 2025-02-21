@@ -6,6 +6,17 @@ class TreeNode {
     }
 }
 
+class Queue1 {
+    constructor() {
+        this.items = []
+    }
+    enqueue(elem) {
+        this.items.push(elem)
+    }
+    dequeue() {
+        this.items.shift()
+    }
+}
 
 // Depth-first search
 
@@ -39,13 +50,28 @@ class TreeNode {
 
 
 // Breadth-first traversal
-function display4Tree(root) {
-    if (root === null) return
-    display4Tree(root.left)
-    display4Tree(root.right)
-    console.log(root.val)
+// function display4Tree(root) {
+//     if (root === null) return
+//     display4Tree(root.left)
+//     display4Tree(root.right)
+//     console.log(root.val)
+
+// }
+
+
+
+function display5Tree(root) {
+    const v = new Queue1()
+    v.enqueue(root)
+    display5Tree(root.left)
+    v.dequeue()
+    display5Tree(root.right)
+    v.enqueue(root)
+    console.log(v)
+
 
 }
+
 
 const [a, b, c, d, e] = ['a', 'b', 'c', 'd', 'e'].map(elem => new TreeNode(elem))
 
@@ -58,4 +84,6 @@ b.right = d
 // displayTree(a)
 // display2Tree(a)
 // display3Tree(a)
-display4Tree(a)
+// display4Tree(a)
+console.log(display5Tree(a))
+
