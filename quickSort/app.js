@@ -1,13 +1,15 @@
 function quickSort(arr) {
     if (arr.length <= 1) {
-        return arr; // Base case: arrays with 0 or 1 element are already sorted
+        return arr; // Dacă lista are 0 sau 1 element, este deja sortată
     }
 
-    const pivot = arr[arr.length - 1]; // Choose the last element as the pivot
+    // Alegem pivotul ca fiind ultimul element din listă
+    const pivot = arr[arr.length - 1];
     const left = [];
     const right = [];
 
-    for (let i = 0; i < arr.length - 1; i++) { // Partitioning
+    // Parcurgem lista și împărțim elementele în stânga și dreapta pivotului
+    for (let i = 0; i < arr.length - 1; i++) {
         if (arr[i] < pivot) {
             left.push(arr[i]);
         } else {
@@ -15,9 +17,11 @@ function quickSort(arr) {
         }
     }
 
-    return [...quickSort(left), pivot, ...quickSort(right)]; // Recursively sort and combine
+    // Aplicăm QuickSort recursiv pe sub-liste și combinăm rezultatele
+    return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
-// Example usage
-const array = [10, 5, 2, 3, 7, 6, 1, 9, 4, 8];
-console.log(quickSort(array));
+// Exemplu de utilizare:
+const arr = [10, 7, 8, 9, 1, 5];
+const sortedArr = quickSort(arr);
+console.log(sortedArr); // Output: [1, 5, 7, 8, 9, 10]
