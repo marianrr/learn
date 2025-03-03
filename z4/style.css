@@ -1,0 +1,96 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    gap: 10px;
+    height: 10lvh;
+}
+
+.header1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#attex {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cos {
+    margin-left: auto;
+}
+
+navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(221, 14, 14);
+    gap: 10px;
+    height: 5lvh;
+    padding: 0 10%;
+}
+
+navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#banner {
+    height: 20lvh;
+    margin: 0 10%;
+    background-color: #f1d2d2;
+    border-radius: 0 0 0 5px;
+    margin-bottom: 20px;
+}
+
+.main1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 15lvh;
+    margin: 0 10%;
+    text-align: center;
+}
+
+.main1 div {
+    height: 100%;
+    width: 18%;
+    background-color: #45c9e7;
+    border-radius: 0 5px 0 5px;
+    align-content: center;
+}
+
+#p1 {
+    margin: 15px 0;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10%;
+    background-color: aquamarine
+    gap: 10px;
+    height: 20lvh;
+}
+
+.main2 div {
+    height: 100%;
+    background-color: #a9bce4;
+    width: 18%;
+    border-radius: 5px;
+}
