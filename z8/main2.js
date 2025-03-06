@@ -1,0 +1,1 @@
+console.log(Array.from({ length: 51 }, (v, i) => i*2))

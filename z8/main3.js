@@ -1,0 +1,1 @@
+console.log(Array.from({length: 30}, (_, i) => i+1).filter(elem => elem%2 === 0).join(" "))

@@ -1,0 +1,51 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    gap: 10px;
+    height: 80px;
+}
+
+nav :first-child {
+    color: red;
+    font-size: 30px;
+}
+
+main.flex1 {
+    gap: 5px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+main div {
+    height: 200px;
+    width: 16%;
+    background-color: rgb(47, 168, 168);
+    border-radius: 10px;
+}
+
+#search1 {
+    margin-left: auto;
+}
