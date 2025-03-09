@@ -9,6 +9,7 @@ console.log(typeof {name: "Walter"})
 console.log(typeof null)
 console.log(typeof undefined)
 console.log(typeof true)
+console.log(typeof NaN)
 
 const symbol1 = Symbol()
 console.log(typeof symbol1)
