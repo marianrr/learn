@@ -1,0 +1,25 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100lvw;
+    height: 100lvh;
+    color: white;
+}
+
+.ki {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40lvw;
+    height: 40lvh;
+    border-radius: 5px;
+}
