@@ -1,0 +1,35 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    width: 100lvw;
+    height: 100lvh;
+    align-content: center;
+    text-align: center;
+}
+
+.container {
+    background-color: #eeb9b9;
+    width: 70lvw;
+    height: 50lvh;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #554dec;
+    width: 6lvw;
+    height: 5lvh;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}

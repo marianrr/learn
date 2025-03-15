@@ -1,0 +1,35 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellowgreen;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.container {
+    align-content: center;
+    text-align: center;
+    margin: 20lvh auto;
+    background-color: aqua;
+    width: 60lvw;
+    height: 60lvh;
+    border-radius: 5px;
+}
+
+input {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 0);
+    width: 10%;
+    height: 12%;
+    margin: 4px;
+    border-radius: 5px;
+}
