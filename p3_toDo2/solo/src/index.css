@@ -1,0 +1,45 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c5ef9b;
+  align-content: center;
+  text-align: center;
+}
+
+#container {
+  background-color: #eb8046;
+  align-content: center;
+  text-align: center;
+  width: 80lvw;
+  height: 80lvh;
+  margin: 10lvh auto;
+  border-radius: 5px;
+}
+
+
+form {
+  background-color: #dcd6f1;
+  align-content: center;
+  text-align: center;
+  width: 40lvw;
+  height: 60lvh;
+  margin: 5lvh auto;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #3cff3f;
+  align-content: center;
+  text-align: center;
+  width: 20lvw;
+  height: 4lvh;
+  /* margin: 10lvh auto; */
+  border-radius: 5px;
+  margin: 5px;
+}
