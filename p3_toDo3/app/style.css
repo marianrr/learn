@@ -1,0 +1,43 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#container {
+    background-color: rgb(186, 237, 142);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+input {
+    background-color: rgb(202, 228, 244);
+    text-align: center;
+}
+
+ul {
+    background-color: rgb(202, 229, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
