@@ -1,0 +1,30 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100lvw;
+  height: 100lvh;
+}
+
+.container {
+  background-color: aqua;
+  width: 80lvw;
+  height: 60lvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(56, 51, 51);
+  border-radius: 10px;
+  font-size: 150px;
+
+}
