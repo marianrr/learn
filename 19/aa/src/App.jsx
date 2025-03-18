@@ -1,26 +1,37 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react';
 
+function DinamoComponent() {
+  const [dinamo, setDinamo] = useState(10); // Valoare inițială
+  const intervalRef = useRef(null);
 
-function App() {
-  const [kikila, setKikila] = useState("Bayern Munchen")
+  useEffect(() => {
+    // Cleanup la demontare
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+  }, []);
 
-
-  const coco = (e) => {
-    setKikila("kikila")
-  }
-
-  const oo = (e) => {
-    setKikila("Bayern")
-  }
+  const startCountdown = () => {
+    // Oprim orice interval existent
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    
+    intervalRef.current = setInterval(() => {
+      setDinamo(prev => {
+        if (prev <= 0) {
+          clearInterval(intervalRef.current);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+  };
 
   return (
-    <>
-      <p>Dj guga la felipa</p>
-      <p id="lol" onMouseOver={coco} onMouseOut={oo}>{kikila}</p>
-     <p onClick={click2} id="lili">Dinamo</p>
-    
-    </>
-  )
+    <div>
+      <button onClick={startCountdown}>Start Countdown</button>
+      <p>{dinamo}</p>
+    </div>
+  );
 }
 
-export default App
+export default DinamoComponent;
