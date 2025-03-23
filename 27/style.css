@@ -1,0 +1,49 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    height: 100lvh;
+    width: 100lvw;
+}
+
+.container {
+    background-color: rgb(175, 154, 154);
+    color: white;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    height: 80lvh;
+    width: 60lvw;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 5lvh;
+    width: 60lvw;
+    margin-top: 10px;
+    inset: none;
+    border: 1px solid white;
+
+}
+
+ul {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+span:hover {
+    color: red;
+    cursor: pointer;
+}

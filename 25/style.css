@@ -1,0 +1,35 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100lvw;
+    height: 100lvh;
+    align-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 80lvw;
+    height: 20lvh;
+    align-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.container div {
+    display: inline-block;
+    width: 6lvw;
+    height: 20lvh;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(119, 222, 54);
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
