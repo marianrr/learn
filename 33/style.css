@@ -1,0 +1,26 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: chocolate;
+    text-align: center;
+    align-content: center;
+    color: gray;
+    font-size: 100px;
+    width: 100lvw;
+    height: 100lvh;
+
+}
+
+#timer {
+    background-color: chocolate;
+    text-align: center;
+    align-content: center;
+    color: rgb(36, 118, 218);
+    font-size: 100px;
+}

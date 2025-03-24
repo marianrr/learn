@@ -1,0 +1,30 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    align-content: center;
+    height: 100lvh;
+    width: 100lvw;
+
+}
+
+#weather {
+    background-color: rgb(226, 93, 93);
+    text-align: center;
+    color: white;
+    align-content: center;
+    height: 20lvh;
+    width: 40lvw;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 60px;
+}
