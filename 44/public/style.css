@@ -1,0 +1,26 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100lvw;
+    height: 100lvh;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+
+}
+
+form {
+    width: 60lvw;
+    height: 60lvh;
+    background-color: chartreuse;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
