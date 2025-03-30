@@ -1,0 +1,30 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    height: 100lvh;
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(134, 243, 62);
+}
+
+fieldset {
+    width: 60lvw;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 60lvw;
+}
