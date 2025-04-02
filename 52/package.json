@@ -1,23 +1,16 @@
 {
-  "name": "55",
+  "name": "52",
   "version": "1.0.0",
-<<<<<<< HEAD
-=======
   "description": "",
->>>>>>> 0a3b5eaf2860c0c18f3fb0c62f9a066342ea2412
   "main": "index.js",
   "scripts": {
-    "start": "start http://localhost:3000 && nodemon app.js",
+    "start": "start http://localhost:3000/home && nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-<<<<<<< HEAD
-  "description": "",
-=======
->>>>>>> 0a3b5eaf2860c0c18f3fb0c62f9a066342ea2412
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^5.1.0",

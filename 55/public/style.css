@@ -7,7 +7,11 @@ body {
 }
 
 body {
+<<<<<<< HEAD
     background-color: #f8e2e2;
+=======
+    background-color: #fab4b4;
+>>>>>>> 0a3b5eaf2860c0c18f3fb0c62f9a066342ea2412
     height: 100lvh;
     width: 100lvw;
     align-content: center;
@@ -15,13 +19,20 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
     background-color: #ef6363;
     height: 30lvh;
     width: 90lvw;
+=======
+    background-color: #8ddd24;
+    height: 80lvh;
+    width: 80lvw;
+>>>>>>> 0a3b5eaf2860c0c18f3fb0c62f9a066342ea2412
     align-content: center;
     text-align: center;
     border-radius: 10px;
     margin: auto;
+<<<<<<< HEAD
     font-size: 40px;
 }
 
@@ -41,3 +52,19 @@ body {
 .container div:hover {
     cursor: pointer;
 }
+=======
+}
+
+ol {
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+}
+li {
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+    list-style-position: inside;
+}
+
+>>>>>>> 0a3b5eaf2860c0c18f3fb0c62f9a066342ea2412
