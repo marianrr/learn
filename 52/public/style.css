@@ -1,0 +1,30 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5c7c7;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+
+.container {
+    background-color: #828ce7;
+    height: 40lvh;
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: auto;
+}

@@ -1,0 +1,38 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fab4b4;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+}
+
+.container {
+    background-color: #8ddd24;
+    height: 80lvh;
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+ol {
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+}
+li {
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+    list-style-position: inside;
+}
+

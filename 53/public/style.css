@@ -1,0 +1,39 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8dbdb;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.container {
+    background-color: #48db38;
+    height: 40lvh;
+    width: 80lvw;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 40px;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 5px;
+    width: 30lvw;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}

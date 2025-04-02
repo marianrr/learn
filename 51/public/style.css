@@ -1,0 +1,29 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #eaa0a0;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(47, 85, 44);
+
+}
+
+
+span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 40px;
+}
