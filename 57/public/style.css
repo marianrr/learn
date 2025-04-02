@@ -1,0 +1,27 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7db9ed;
+    height: 100lvh;
+    width: 100lvw;
+    font-size: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+#container {
+    background-color: #2981ce;
+    height: 80lvh;
+    width: 90lvw;
+    font-size: 100px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}

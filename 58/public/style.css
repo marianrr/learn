@@ -1,0 +1,19 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #aced89;
+    height: 100lvh;
+    width: 100lvw;
+    font-size: 40px;
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+
+}
