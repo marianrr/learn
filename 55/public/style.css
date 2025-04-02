@@ -1,0 +1,43 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8e2e2;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+}
+
+.container {
+    background-color: #ef6363;
+    height: 30lvh;
+    width: 90lvw;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 40px;
+}
+
+.container div {
+    display: inline-block;
+    background-color: #c3eb55;
+    height: 20lvh;
+    width: 10lvw;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+
+.container div:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5be97c;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 200px;
+    font-weight: bolder;
+}
+
+#clock {
+    background-color: #158b31;
+    height: 70lvh;
+    width: 90lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
