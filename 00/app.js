@@ -9,3 +9,6 @@ app.use('/', homeRouter)
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}.`)
 })
+
+
+// pentru secret_key    require('crypto').randomBytes(64).toString('hex')
