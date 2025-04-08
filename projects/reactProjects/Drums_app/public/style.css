@@ -1,0 +1,37 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+}
+
+.container {
+    height: 20lvh;
+    width: 60lvw;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+button {
+    height: 14lvh;
+    width: 8lvw;
+    background-color: rgb(232, 182, 120);
+    border-radius: 10px;
+    border: rgb(229, 145, 28) solid 5px;
+}
+button:active {
+    border: red;
+    box-shadow: 2px 2px 5px #fc894d;
+    background-color: aqua;
+}
