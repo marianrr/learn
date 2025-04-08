@@ -1,0 +1,17 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    height: 100lvh;
+    width: 100lvw;
+    align-content: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+}
