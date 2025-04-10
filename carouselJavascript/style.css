@@ -1,0 +1,29 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100lvh;
+    width: 100lvw;
+    text-align: center;
+    align-content: center;
+
+}
+
+.container {
+    height: 50lvh;
+    width: 50lvw;
+    margin: auto;
+
+}
+
+img {
+    height: 50lvh;
+    width: 50lvw;
+    border-radius: 10px;
+}

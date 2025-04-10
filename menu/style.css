@@ -1,0 +1,19 @@
+#coco {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.coco2 {
+    margin-top: 7px;
+    align-content: center;
+    text-align: center;
+    background-color: aqua;
+    width: 140px;
+    height: 30px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
