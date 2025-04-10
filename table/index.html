@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #e2c4c4;
+            width: 100lvw;
+            height: 100lvh;
+            align-content: center;
+            text-align: center;
+            font-size: 30px;
+        }
+
+
+        table {
+            border: 3px solid green;
+            border-collapse: collapse;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        td,
+        th,
+        tr,
+        thead,
+        tbody,
+        tfoot {
+            height: 10lvh;
+            width: 20lvw;
+            border: 3px solid rgb(255, 255, 255);
+        }
+
+        tr:nth-child(2n) {
+            background-color: brown;
+        }
+
+        tr:nth-child(2n+1) {
+            background-color: rgb(55, 117, 55);
+        }
+
+        th {
+            background-color: rgb(143, 217, 217);
+        }
+
+        tfoot td {
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th>001</th>
+            <th>002</th>
+            <th>003</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">kikila
+                <td>dj guga</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

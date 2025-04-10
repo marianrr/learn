@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #e2c4c4;
+            width: 100lvw;
+            height: 100lvh;
+            align-content: center;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <select name="" id="l1" onchange="cha1(event)">
+
+        <option value="1">1dfsdfsdfsdffsf</option>
+        <option value="2">2fsfs</option>
+        <option value="3">3sdfsdf</option>
+        <option value="4">fdff4</option>
+        <option value="5">5ffff</option>
+    </select>
+    <br>
+    <dic id="s1">kikila</dic>
+
+    <script>
+        const cha1 = event => {
+            let val = window.l1.value
+            let so = document.createElement('p')
+            so.textContent = "Ai selectat optiunea: " + val
+            window.s1.appendChild(so)
+        }
+    </script>
+
+
+</body>
+
+</html>

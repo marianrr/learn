@@ -1,0 +1,21 @@
+{
+  "name": "reactrouter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "start http://localhost:3000 && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@babel/standalone": "^7.27.0",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
