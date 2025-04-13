@@ -1,0 +1,33 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://picsum.photos/400/300?random=33');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100lvw;
+    height: 100lvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50lvw;
+    height: 50lvh;
+    background: rgba(195, 34, 58, 0.3);
+    backdrop-filter: blur(2.5px);
+    border: 1px red solid;
+    color: black;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+
+}

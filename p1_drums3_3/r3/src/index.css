@@ -18,7 +18,7 @@ body {
     align-content: center;
     text-align: center;
     margin: 20lvh auto;
-    background-color: aqua;
+    background-color: aqua; 
     width: 60lvw;
     height: 60lvh;
     border-radius: 5px;
@@ -29,7 +29,12 @@ input {
     text-align: center;
     background-color: rgb(255, 255, 0);
     width: 10%;
-    height: 12%;
+    height: 20%;
     margin: 4px;
     border-radius: 5px;
+}
+
+input:active {
+    border: 5px solid rgb(219, 43, 43);
+    background-color: aliceblue;
 }
