@@ -1,0 +1,37 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: url('https://picsum.photos/1600/1600?random=22');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 100px;
+  font-weight: bolder;
+  width: 100lvw;
+  height: 100lvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  /* background: rgba( 255, 0, 0, 0.25 ); */
+  /* background: rgba(61, 61, 224, 0.7); */
+  background: rgba(85, 210, 85, 0.3);
+
+
+  backdrop-filter: blur(2.5px);
+  width: 50lvw;
+  height: 50lvh;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  align-content: center;
+  /* opacity: 0.6; */
+}
