@@ -1,0 +1,48 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://picsum.photos/id/41/400/300');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100lvw;
+  height: 100lvh;
+  font-size: 30px;
+  color: white;
+}
+
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100lvw;
+  height: 20lvh;
+}
+
+nav button {
+  width: 10lvw;
+  height: 40%;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(151, 31, 127);
+
+  background-color: rgba(230, 24, 206, 0.1);
+  backdrop-filter: blur(1px)
+}
+
+nav button:hover {
+  cursor: pointer;
+  background-color: rgba(248, 4, 219, 0.3);
+  backdrop-filter: blur(5px)
+}
+
+h1 {
+  text-align: center;
+}

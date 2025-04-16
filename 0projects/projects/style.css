@@ -1,0 +1,80 @@
+body {
+    background: #812a9b;
+    background: linear-gradient(90deg, rgba(129, 42, 155, 1) 0%, rgba(199, 175, 87, 1) 50%, rgba(83, 237, 127, 1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+nav {
+    width: 80lvw;
+    height: 16lvh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 78lvh;
+    width: 80lvw;
+}
+
+img {
+    width: 20lvw;
+    height: 30lvh;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    -webkit-box-shadow: 9px 8px 5px 0px rgba(235, 202, 235, 0.59);
+    -moz-box-shadow: 9px 8px 5px 0px rgba(235, 202, 235, 0.59);
+    box-shadow: 9px 8px 5px 0px rgba(235, 202, 235, 0.59);
+}
+
+
+figure {}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+img:hover {
+    box-shadow: 0 0 50px 15px #48abe0;
+    width: 22lvw;
+    height: 34lvh;
+    transition: 0.2s ease-in;
+}
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #0fa,
+            0 0 80px #0fa,
+            0 0 90px #0fa,
+            0 0 100px #0fa,
+            0 0 150px #0fa;
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+h1 {
+    animation: flicker 1.5s infinite alternate;
+}
